@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "Backend.Presentation.Controllers.TarefaController",
+    "Method": "GetTarefas",
+    "RelativePath": "api/Tarefa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
