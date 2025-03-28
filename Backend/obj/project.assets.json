@@ -4743,11 +4743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas Felipe\\source\\repos\\ToDo-DS\\Backend\\Backend.csproj",
+      "projectUniqueName": "D:\\Arquivos Locais\\Downloads\\ToDo-DS\\ToDo-DS\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\Users\\Lucas Felipe\\source\\repos\\ToDo-DS\\Backend\\Backend.csproj",
+      "projectPath": "D:\\Arquivos Locais\\Downloads\\ToDo-DS\\ToDo-DS\\Backend\\Backend.csproj",
       "packagesPath": "C:\\Users\\Lucas Felipe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas Felipe\\source\\repos\\ToDo-DS\\Backend\\obj\\",
+      "outputPath": "D:\\Arquivos Locais\\Downloads\\ToDo-DS\\ToDo-DS\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

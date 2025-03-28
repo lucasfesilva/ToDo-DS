@@ -10,6 +10,6 @@ namespace Backend.Domain.Entities
         public string? Descricao { get; set; }
         public DateTime CriadoEm { get; set; }
         public DateTime? ConcluidoEm { get; set; }
-
+        public TarefaStatus Status { get; set; } = TarefaStatus.Pendente;
     }
 }

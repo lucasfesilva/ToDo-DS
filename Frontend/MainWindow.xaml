@@ -5,8 +5,94 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Frontend"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Lista de Tarefas" Height="629" Width="1166"
+        Background="#F4F4F4" WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Lista de Tarefas"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   Foreground="#333"
+                   HorizontalAlignment="Center"
+                   Margin="10"/>
+
+        <StackPanel Grid.Row="1" Orientation="Vertical" Margin="10" HorizontalAlignment="Left">
+
+            <StackPanel Orientation="Horizontal" Margin="10,5,0,0">
+                <TextBlock Text="Filtrar:"
+                   FontSize="14"
+                   VerticalAlignment="Center"
+                   Foreground="#555"
+                   Margin="0,0,10,0"/>
+
+                <Border Background="White" CornerRadius="8" Padding="2" BorderBrush="#CCC" BorderThickness="1" Margin="15,0,0,0">
+                    <ComboBox Width="150" FontSize="14">
+                        <ComboBoxItem Content="Todos"/>
+                        <ComboBoxItem Content="Em progresso"/>
+                        <ComboBoxItem Content="Pendente"/>
+                        <ComboBoxItem Content="Concluído"/>
+                    </ComboBox>
+                </Border>
+                <Button Content="Nova Tarefa"
+                Background="#4CAF50"
+                Foreground="White"
+                Width="80" Height="30"
+                BorderThickness="0"
+                Cursor="Hand"
+                HorizontalAlignment="Right"
+                Grid.Column="1"
+                Margin="10,5,0,0"
+                        Click="AbrirTarefa_Click"/>
+            </StackPanel>
+        </StackPanel>
+
+        <Border Grid.Row="3" Background="White" CornerRadius="10" Padding="5" BorderBrush="#CCC" BorderThickness="1">
+            <ListView Margin="5" x:Name="ListaTarefas">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="ID" Width="50" DisplayMemberBinding="{Binding Id}"/>
+                        <GridViewColumn Header="Tarefa" Width="250" DisplayMemberBinding="{Binding Titulo}"/>
+                        <GridViewColumn Header="Descrição" Width="160" DisplayMemberBinding="{Binding Descricao}"/>
+                        <GridViewColumn Header="Data de Criação" Width="160" DisplayMemberBinding="{Binding CriadoEm}"/>
+                        <GridViewColumn Header="Data de Conclusão" Width="160" DisplayMemberBinding="{Binding ConcluidoEm}"/>
+                        <GridViewColumn Header="Status" Width="160" DisplayMemberBinding="{Binding Status}"/>
+                        <GridViewColumn Header="Ações" Width="160">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                        <Button Content="✏️"
+                                            ToolTip="Alterar"
+                                            Background="#FFC107"
+                                            Foreground="White"
+                                            Width="35" Height="25"
+                                            BorderThickness="0"
+                                            Cursor="Hand"
+                                            Click="AlterarTarefa_Click">
+                                            <Button.CommandParameter>
+                                                {Binding}
+                                            </Button.CommandParameter>
+                                        </Button>
+                                        <Button Content="🗑️"
+                                                ToolTip="Deletar"
+                                                Background="#F44336"
+                                                Foreground="White"
+                                                Width="35" Height="25"
+                                                BorderThickness="0"
+                                                Cursor="Hand"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Border>
 
     </Grid>
 </Window>

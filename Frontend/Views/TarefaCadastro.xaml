@@ -1,0 +1,45 @@
+﻿<Window x:Class="Frontend.Views.TarefaCadastro" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Nova Tarefa" Height="350" Width="450" Background="#FFFFFF" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Border CornerRadius="10" BorderBrush="#CCCCCC" BorderThickness="2" Background="#F9F9F9" Padding="15">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Nome da Tarefa" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" FontSize="14" FontWeight="SemiBold"/>
+            <TextBox x:Name="txtNome" Grid.Row="0" Grid.Column="1" Margin="5" Padding="8" BorderThickness="1" BorderBrush="#CCCCCC" Background="#FFFFFF"/>
+
+            <TextBlock Text="Descrição" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" FontSize="14" FontWeight="SemiBold"/>
+            <TextBox x:Name="txtDescricao" Grid.Row="1" Grid.Column="1" Margin="5" Padding="8" AcceptsReturn="True" Height="60" BorderThickness="1" BorderBrush="#CCCCCC" Background="#FFFFFF"/>
+
+            <TextBlock Text="Status" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" FontSize="14" FontWeight="SemiBold"/>
+            <ComboBox x:Name="cmbStatus" Grid.Row="2" Grid.Column="1" Margin="5" Padding="8" BorderThickness="1" BorderBrush="#CCCCCC" Background="#FFFFFF">
+                <ComboBoxItem Content="Pendentes"/>
+                <ComboBoxItem Content="EmProgresso"/>
+                <ComboBoxItem Content="Concluída"/>
+            </ComboBox>
+
+            <TextBlock Text="Data de Criação" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" FontSize="14" FontWeight="SemiBold"/>
+            <DatePicker x:Name="dtpCriacao" Grid.Row="3" Grid.Column="1" Margin="5" Padding="8" BorderThickness="1" BorderBrush="#CCCCCC" Background="#FFFFFF" />
+
+            <TextBlock Text="Data de Conclusão" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" FontSize="14" FontWeight="SemiBold"/>
+            <DatePicker x:Name="dtpConclusao" Grid.Row="4" Grid.Column="1" Margin="5" Padding="8" BorderThickness="1" BorderBrush="#CCCCCC" Background="#FFFFFF"/>
+
+            <StackPanel Grid.Row="5" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+                <Button Content="Cancelar" Width="100" Height="35" Margin="5" Click="Cancelar_Click" Background="#FF5C5C" Foreground="White" FontWeight="SemiBold" BorderThickness="0"/>
+                <Button Content="Gravar" Width="100" Height="35" Margin="5" Click="Gravar_Click" Background="#4CAF50" Foreground="White" FontWeight="SemiBold" BorderThickness="0"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

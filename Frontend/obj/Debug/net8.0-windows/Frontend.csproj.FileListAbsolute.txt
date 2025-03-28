@@ -1,20 +1,47 @@
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.exe
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.deps.json
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.runtimeconfig.json
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.dll
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.pdb
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend_MarkupCompile.cache
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend_MarkupCompile.lref
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.g.resources
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.AssemblyInfoInputs.cache
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.AssemblyInfo.cs
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.csproj.CoreCompileInputs.cache
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.dll
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\refint\Frontend.dll
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.pdb
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.genruntimeconfig.cache
-C:\Users\Lucas Felipe\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\ref\Frontend.dll
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.exe
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.deps.json
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.runtimeconfig.json
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.dll
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.pdb
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend_MarkupCompile.cache
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend_MarkupCompile.lref
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.g.resources
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.sourcelink.json
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.dll
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\refint\Frontend.dll
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.pdb
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ToDo-DS\Frontend\obj\Debug\net8.0-windows\ref\Frontend.dll
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.exe
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.deps.json
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.runtimeconfig.json
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.dll
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Frontend.pdb
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\App.g.cs
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend_MarkupCompile.cache
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend_MarkupCompile.lref
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.AssemblyInfoInputs.cache
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.AssemblyInfo.cs
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.csproj.CoreCompileInputs.cache
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.sourcelink.json
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.dll
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\refint\Frontend.dll
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.pdb
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.genruntimeconfig.cache
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\ref\Frontend.dll
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.csproj.AssemblyReference.cache
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.csproj.Up2Date
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Frontend.g.resources
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Views\TarefaCadastro.baml
+D:\Arquivos Locais\Downloads\ToDo-DS\ToDo-DS\Frontend\obj\Debug\net8.0-windows\Views\TarefaCadastro.g.cs

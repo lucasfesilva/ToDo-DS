@@ -13,9 +13,29 @@ namespace Backend.Application.Services
             _repository = repository;
         }
 
-        public IEnumerable<Tarefa> GetAll()
+        public async Task AddAsync(Tarefa tarefa)
         {
-            return _repository.GetAll();
+            await _repository.AddAsync(tarefa);
+        }
+
+        public async Task DeleteAsync(Tarefa tarefa)
+        {
+            await _repository.DeleteAsync(tarefa);
+        }
+
+        public async Task<IEnumerable<Tarefa>> GetAllAsync()
+        {
+            return await _repository.GetAllAsync();
+        }
+
+        public async Task<Tarefa> GetByIdAsync(int id)
+        {
+            return await _repository.GetByIdAsync(id);
+        }
+
+        public async Task UpdateAsync(Tarefa tarefa)
+        {
+            await _repository.UpdateAsync(tarefa);
         }
     }
 }

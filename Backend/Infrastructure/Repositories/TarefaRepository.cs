@@ -1,6 +1,7 @@
 ﻿using Backend.Domain.Entities;
 using Backend.Domain.Interfaces;
 using Backend.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Infrastructure.Repositories
 {
@@ -13,9 +14,33 @@ namespace Backend.Infrastructure.Repositories
             _context = context;
         }
 
-        public IEnumerable<Tarefa> GetAll()
+        public async Task AddAsync(Tarefa tarefa)
         {
-            return _context.Tarefas.ToList();
+            await _context.Tarefas.AddAsync(tarefa);
+            await _context.SaveChangesAsync();
+
+        }
+
+        public async Task DeleteAsync(Tarefa tarefa)
+        {
+            _context.Tarefas.Remove(tarefa);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task<IEnumerable<Tarefa>> GetAllAsync()
+        {
+            return await _context.Tarefas.ToListAsync();
+        }
+
+        public async Task<Tarefa> GetByIdAsync(int id)
+        {
+            return await _context.Tarefas.FindAsync(id);
+        }
+
+        public async Task UpdateAsync(Tarefa tarefa)
+        {
+            _context.Tarefas.Update(tarefa);
+            await _context.SaveChangesAsync();
         }
     }
 }

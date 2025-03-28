@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Backend",
+    "\\Backend\\Application",
+    "\\Backend\\Application\\Interfaces",
+    "\\Backend\\Application\\Services",
+    "\\Backend\\Domain",
+    "\\Backend\\Domain\\Entities",
+    "\\Backend\\Domain\\Interfaces"
+  ],
+  "PreviewInSolutionExplorer": false
+}

@@ -4,6 +4,11 @@ namespace Backend.Domain.Interfaces
 {
     public interface ITarefaRepository
     {
-        IEnumerable<Tarefa> GetAll();
+        Task<IEnumerable<Tarefa>> GetAllAsync();
+        Task<Tarefa> GetByIdAsync(int id);
+        Task AddAsync(Tarefa tarefa);
+        Task DeleteAsync(Tarefa tarefa);
+        Task UpdateAsync(Tarefa tarefa);
     }
 }
+
